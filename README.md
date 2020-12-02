@@ -2,17 +2,17 @@
 Function generator and visualizer. Made with [olc::PixelGameEngine](https://github.com/OneLoneCoder/olcPixelGameEngine)
 
 ### Functions
--   Sine
--   Sawtooth
--   Square
--   Triangle
+- Sine
+- Sawtooth
+- Square
+- Triangle
 
 ### Dependencies
-[olcPixelGameEngine.h](https://github.com/OneLoneCoder/olcPixelGameEngine)
-[olcPGEX_PanZoom.h](https://github.com/nospi/olcPGEX_PanZoom)
+- [olcPixelGameEngine.h](https://github.com/OneLoneCoder/olcPixelGameEngine)
+- [olcPGEX_PanZoom.h](https://github.com/nospi/olcPGEX_PanZoom)
 
 ### How to use
-**Select Function**
+**Select Function with number keys**
 - 1: Sine
 - 2: Sawtooth
 - 3: Square
