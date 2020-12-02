@@ -1,17 +1,17 @@
-### Wave Generator
+# Wave Generator
 Function generator and visualizer. Made with [olc::PixelGameEngine](https://github.com/OneLoneCoder/olcPixelGameEngine)
 
-### Functions
+## Functions
 - Sine
 - Sawtooth
 - Square
 - Triangle
 
-### Dependencies
+## Dependencies
 - [olcPixelGameEngine.h](https://github.com/OneLoneCoder/olcPixelGameEngine)
 - [olcPGEX_PanZoom.h](https://github.com/nospi/olcPGEX_PanZoom)
 
-### How to use
+## How to use
 **Select Function with number keys**
 - 1: Sine
 - 2: Sawtooth
@@ -27,7 +27,7 @@ Function generator and visualizer. Made with [olc::PixelGameEngine](https://gith
 - Pan with left mouse button
 - Zoom with mouse wheel or Q & A keys
 
-### License (OLC-3)
+# License (OLC-3)
 ~~~~~~~~
 Copyright 2018 - 2020 OneLoneCoder.com
 
