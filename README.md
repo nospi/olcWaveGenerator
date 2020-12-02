@@ -13,19 +13,19 @@ Function generator and visualizer. Made with [olc::PixelGameEngine](https://gith
 
 ### How to use
 **Select Function**
--   1) Sine
--   2) Sawtooth
--   3) Square
--   4) Triangle
+- 1: Sine
+- 2: Sawtooth
+- 3: Square
+- 4: Triangle
 
 **Parameters**
--   Frequency: Left and Right arrow keys
--   Amplitude: Up and Down arrow keys
--   Harmonics: Numpad Plus/Minus keys
+- Frequency: Left and Right arrow keys
+- Amplitude: Up and Down arrow keys
+- Harmonics: Numpad Plus/Minus keys
 
 **Navigation**
--   Pan with left mouse button
--   Zoom with mouse wheel or Q & A keys
+- Pan with left mouse button
+- Zoom with mouse wheel or Q & A keys
 
 ### License (OLC-3)
 ~~~~~~~~
@@ -57,11 +57,11 @@ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 Links
-    YouTube:    https://www.youtube.com/javidx9
-    Discord:    https://discord.gg/WhwHUMV
-    Twitter:    https://www.twitter.com/javidx9
-    Twitch:     https://www.twitch.tv/javidx9
-    GitHub:     https://www.github.com/onelonecoder
-    Homepage:   https://www.onelonecoder.com
-    Author:     David Barr, aka javidx9, ©OneLoneCoder 2019, 2020
+YouTube:    https://www.youtube.com/javidx9
+Discord:    https://discord.gg/WhwHUMV
+Twitter:    https://www.twitter.com/javidx9
+Twitch:     https://www.twitch.tv/javidx9
+GitHub:     https://www.github.com/onelonecoder
+Homepage:   https://www.onelonecoder.com
+Author:     David Barr, aka javidx9, ©OneLoneCoder 2019, 2020
 ~~~~~~~~
