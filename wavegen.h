@@ -6,6 +6,14 @@ namespace wavegen
 {
 	constexpr double PI = 3.14159265358979323846;
 
+	enum class WaveFunction
+	{
+		SINE,
+		SAWTOOTH,
+		SQUARE,
+		TRIANGLE
+	};
+
 	double Sine(const double& freq, const double& x, const double& amplitude)
 	{
 		return sin(2.0 * PI * freq * x) * amplitude;
@@ -37,6 +45,18 @@ namespace wavegen
 			y += pow(-1.0, k) * pow(n, -2.0) * sin(2.0 * PI * freq * n * x);
 		}
 		return (8.0 / pow(PI, 2.0)) * y * amplitude;
+	}
+
+	double Generate(WaveFunction f, const double& freq, const double& x, const double& amplitude, const int& harmonics = 1)
+	{
+		switch (f)
+		{
+		case WaveFunction::SINE: return Sine(freq, x, amplitude); break;
+		case WaveFunction::SAWTOOTH: return Sawtooth(freq, x, amplitude, harmonics); break;
+		case WaveFunction::SQUARE: return Square(freq, x, amplitude, harmonics); break;
+		case WaveFunction::TRIANGLE: return Triangle(freq, x, amplitude, harmonics); break;
+		default: return 0.0;
+		}
 	}
 }
 
